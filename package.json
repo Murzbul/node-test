@@ -1,0 +1,35 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Test project for node",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "test": "npx jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgonzalo/node-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgonzalo/node-test/issues"
+  },
+  "homepage": "https://github.com/xgonzalo/node-test#readme",
+  "devDependencies": {
+    "jest": "^23.2.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "ajv": "^6.5.2"
+  }
+}
